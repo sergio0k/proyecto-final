@@ -1,0 +1,32 @@
+/*heder*/
+.main_heder{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: var(--font-family-textos);
+    flex-wrap: wrap;
+    font-size: var(--texto-xxl);
+
+    .main_nav{
+        display: flex;
+        justify-content:space-between;
+        gap: 2rem;
+        background-color: var(--barracolor);       
+    }
+   
+    .main-ul{
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+    }
+    .main-li{
+        color:var(--colortres);
+        padding: 15px;
+        font-size: var(--texto--xl);
+        font-weight: bold;         
+            .main-li:hover{
+               background-color: var(--alternativo);
+               color:var(--letras); 
+            }
+    }    
+}

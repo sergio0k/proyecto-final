@@ -1,0 +1,69 @@
+/*cards*/
+
+.card-seccion{
+    margin: 100px 0px;
+    .card_titulo{
+        font-size: var(--texto-xxl);
+        color: var(--colortres);
+               .card_titulo:hover{
+                   background-color: var(--alternativo);
+                   color:var(--letras);  
+               }
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem;   
+    }
+    .card_img{
+        flex: 1 1 1 180px;
+        margin: 25px;
+              .card_img:hover{
+                  transition: transform .2s;
+                  transform: scale(3); 
+              }
+    }
+    .card_img-tienda{
+        flex: 1 1 1 180px;
+        margin: 25px;
+        justify-content: stretch;                  
+    }
+
+    .card_img-tienda{
+        flex: 1 1 1 180px;
+        margin: 25px;
+        justify-content: stretch;
+             .card_img-tienda:hover{
+                 transition: transform .2s;
+                 transform: scale(2.5); 
+             }          
+    }
+}
+/*seccion cura mate*/
+.cura-mate-titulo{
+    display: flex;
+    font-size: var(--texto-xxl);
+    justify-content:space-between;    
+    color: var(--colortres);
+ 
+}
+.cura-mate-div{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    margin: 100px 0px;     
+    grid-template-columns: 20% auto 12%;
+    
+    .cura-mate-subtitulo{
+        font-size: var(--texto--xl);
+        color: var(--colortres);
+        margin: 30px;   
+    }
+
+    .cura-mate-ol{
+        display:grid;
+        grid-column: span 10;
+        font-size: var(--texto--xl);
+        gap: 2rem;
+    }
+}
