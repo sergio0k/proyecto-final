@@ -46,9 +46,15 @@ body{
     background-color: var(--primary);
 }
 
+main{
+    font-family: var(--font-family-textos);
+    background-color: var(--primary);
+}
+
 
 img{
     width: 250px;
+    border-radius:10px;
 }
 
 ul{
@@ -59,10 +65,12 @@ a{
     text-decoration: none;
     font-size: 2em;}
 
-.container{
+/*.container{
 margin:0 auto;
 max-width: 1200px;
-}
+}*/
+
+
 
 footer{
     background-color: var(--barracolor);
@@ -135,6 +143,8 @@ min-width: 120px;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;   
+    font-family: var(--font-family-textos);
+    background-color: var(--primary);
 }
 .card_titulo{
     font-size: var(--texto-xxl);
@@ -242,33 +252,14 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+       
     font-size: var(--texto-xxl);
     font-family: var (font-family-textos);
  }
 
 
- /*mateando*/
-
-.titulo__mateando{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--texto-xxl);
-    font-family: var (font-family-textos);
-    margin-top: 25rem;
-}
-
-.imagen_papa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-.img_papa{
-    width: 25vw;
-}
+ 
 
 /*tienda*/
 .titulo__tienda{
@@ -335,6 +326,7 @@ input{
 margin: 50px;
 display: inline-block;
 border: solid var(--barracolor) 8px;
+border-radius:10px;
 
 }
 
@@ -342,6 +334,7 @@ border: solid var(--barracolor) 8px;
     margin: 50px;    
     display: inline-block;
     border: solid var(--barracolor) 8px;
+    border-radius:10px;
 }
 
 .imagen__mates{
@@ -360,6 +353,7 @@ border: solid var(--barracolor) 8px;
     margin: 50px;    
     display: inline-block;
     border: solid var(--barracolor) 8px;
+    border-radius:10px;
 }
 
 
@@ -372,6 +366,7 @@ border: solid var(--barracolor) 8px;
     margin: 50px;    
     display: inline-block;
     border: solid var(--barracolor) 8px;
+    border-radius:10px;
 }
 
 .imagen__accesorios{
@@ -383,6 +378,7 @@ border: solid var(--barracolor) 8px;
     margin: 50px;    
     display: inline-block;
     border: solid var(--barracolor) 8px;
+    border-radius:10px;
  }
 
  .imagen__bombilla{
@@ -548,16 +544,11 @@ width: 35rem;
     
     }
     
-     .video__mate{    
-        display: flex;
-        flex-wrap: wrap;
-        height: 70vh;
-        width: 50vw;   
-        justify-content: flex-end;
-        align-items: flex-end;
-       
-     
-        }
+    
+
+
+
+
 
 
 

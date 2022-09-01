@@ -1,0 +1,32 @@
+/*como armar tu mate*/
+
+.armado__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--texto-xxl);
+    font-family: var (font-family-textos);
+    margin-top: 15rem;
+    color: var(--colortres);
+    
+}
+
+.armado_mate{
+    display: flex;
+    justify-content:space-between;
+    font-size: var(--texto--xl);
+    font-family:var(--font-family-textos);
+    margin: 15px;
+  
+    
+    }
+     
+    .armado__lista{
+    list-style:circle;
+     display:flex;
+     flex-wrap: wrap;
+     font-size: var(--texto--xl);
+    font-family:var(--font-family-textos);
+    
+    }
+    

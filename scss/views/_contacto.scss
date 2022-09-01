@@ -1,0 +1,26 @@
+/*contactos*/
+
+.contactos__titulos{
+    display: flex;
+    justify-content: center;
+    font-size: var(--texto-xxl);
+    font-family: var (font-family-textos);
+    margin-top: 10rem;
+    color: var(--colortres);
+    margin-bottom: 10rem;
+}
+ .contactos{    
+    display: flex;    
+    align-items: center; 
+    justify-content:space-evenly; 
+    flex-wrap: wrap;
+    font-size: var(--texto--xl); 
+    font-family:var(--font-family-textos);
+    margin-bottom: 72rem;
+ }
+    
+    .contactos:hover{ 
+        transition: transform .2s;
+    transform: scale(1.5);       
+    
+    }

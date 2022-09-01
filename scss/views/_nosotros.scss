@@ -1,0 +1,24 @@
+/*nosotros*/
+
+.nosotros__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: var(--texto-xxl);
+    font-family: var (font-family-textos);
+    margin-top: 10rem;
+    color: var(--colortres);
+    margin-bottom: 10rem
+}
+
+.nosotros__parrafo{
+    font-size: var(--texto--xl);
+    font-family: var (font-family-textos);
+    display :flex;
+    justify-content: flex-end; 
+    margin: 25px ;   
+}
+
+.footer-nosotros{
+    margin-top: 1200px;
+}
+
