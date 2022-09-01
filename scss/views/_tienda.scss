@@ -1,0 +1,143 @@
+/*tienda */
+.titulo__tienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--texto-xxl);
+    font-family: var (font-family-textos);
+    margin-top: 25rem;
+    color: var(--colortres);
+}
+
+
+
+
+.main_tienda{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--texto--xl);
+    color: var(--colortres);
+
+}
+
+
+#main_tienda{
+    background-color: var(--barracolor);
+}
+
+.imagen_yerba{
+    display: inline-block;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 50px 50px;
+}
+
+/* animaciones tienda */
+.producto__accesorios:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+.productos__bombilla:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+.productos__mates:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+.productos__termos:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+.productos__yerba:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+
+
+.productos__mates{
+    margin: 50px;
+    display: inline-block;
+    border: solid var(--barracolor) 8px;
+    border-radius:10px;
+    
+    }
+    
+    .productos__yerba{
+        margin: 50px;    
+        display: inline-block;
+        border: solid var(--barracolor) 8px;
+        border-radius:10px;
+    }
+    
+    .imagen__mates{
+     
+        margin: 20px 20px;   
+        display: inline-block;    
+    }
+    
+    .imagen__yerba{
+        display: inline-block;  
+        max-width: 200px;
+        margin: 20px 20px;
+    }
+    
+    .productos__termos{
+        margin: 50px;    
+        display: inline-block;
+        border: solid var(--barracolor) 8px;
+        border-radius:10px;
+    }
+    
+    
+    .imagen__termos{
+        display: inline-block;  
+        max-width: 200px;
+        margin: 20px 20px;       
+    }
+    .producto__accesorios {
+        margin: 50px;    
+        display: inline-block;
+        border: solid var(--barracolor) 8px;
+        border-radius:10px;
+    }
+    
+    .imagen__accesorios{
+        display: inline-block;   
+        max-width: 200px;
+        margin: 20px 20px;   
+    }
+     .productos__bombilla{
+        margin: 50px;    
+        display: inline-block;
+        border: solid var(--barracolor) 8px;
+        border-radius:10px;
+     }
+    
+     .imagen__bombilla{
+        display: inline-block;   
+        max-width: 200px;
+        margin: 20px 20px;       
+     }
+    .pagos_titulo{
+        color: var(--colortres);
+    }
+    
+    .formas_de_pagos{
+        background-color:var(--barracolor);
+        color: darkgoldenrod;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formas__pagos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .articulo_pago{
+        display: flex;
+        margin: 50px 50px;
+    }

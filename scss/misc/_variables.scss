@@ -1,0 +1,29 @@
+/*variables*/
+:root{
+    /*paleta de colores*/
+    --primary:#c3c48dff;
+    --colorsecundario:  hsla(125, 80%, 90%, 1);
+    --colortres:darkgoldenrod;
+    --alternativo: black;
+    --letras:white;
+     --barracolor:#d1efb5;
+
+
+    /*espacios*/
+    --espacio: 45px;
+    --espacio2: 35px;
+    --espacio_3:25px;
+
+
+    /*fuentes*/
+    --font-family-titulos: 'Barlow Condensed', sans-serif;
+    --font-family-textos: 'Bebas Neue', cursive;
+    --font-family-baes: 'PT Sans Narrow', sans-serif;
+    
+    
+    /*font-sizes*/
+    --texto-xxl: 50px;
+    --texto--xl: 35px;
+    --texto-l: 20px;
+    --texto-base:15px;
+}

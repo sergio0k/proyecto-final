@@ -1,0 +1,26 @@
+/*iniciar sesion*/
+
+input{
+    width: 25rem;
+    height: 3rem;
+}
+
+.iniciar__sesion_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--texto-xxl);
+    font-family: var (font-family-textos);
+    margin-top: 25rem;
+    color:var(--colortres);
+}
+
+
+.iniciar__sesion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--texto-xxl);
+    font-family: var (font-family-textos);
+ }

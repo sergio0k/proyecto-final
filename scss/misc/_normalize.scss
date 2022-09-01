@@ -1,0 +1,46 @@
+/*proyexto */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5% ;
+}
+
+body{
+    font-family: var(--font-family-textos);
+    background-color: var(--primary);
+}
+
+
+img{
+    width: 250px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 2em;}
+
+.container{
+margin:0 auto;
+max-width: 1200px;
+}
+
+footer{
+    background-color: var(--barracolor);
+    font-size: var(--texto-l);
+    font-family: var(--font-family-textos);  
+    
+}
+.footer-div{
+ 
+flex-wrap:wrap;
+margin-top: 1200px;
+}

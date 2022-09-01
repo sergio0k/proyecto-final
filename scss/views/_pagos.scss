@@ -1,0 +1,49 @@
+/*pagos*/
+#titulo-pagos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--texto-xxl);
+    font-family: var (font-family-textos);
+    margin-top: 15rem;
+    color: var(--colortres);
+}
+
+#seccion-pagos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.img-pagos{
+width: 35rem;
+}
+.img-pagos:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+
+}
+
+#pagos-bancos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.articulo_pago{
+    display: flex;
+    margin: 50px 50px;
+}
+
+
+/*resdponsive pagos*/
+
+@media only screen  (max-width 480px) {
+    .img-pagos{
+        width: 40px;
+
+    }
+    
+}
