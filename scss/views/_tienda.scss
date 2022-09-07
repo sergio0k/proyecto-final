@@ -141,3 +141,28 @@
         display: flex;
         margin: 50px 50px;
     }
+
+    /*media tienda*/
+@media (max-width:786px){
+    .producto__accesorios:hover{
+        transition: transform .2s;
+        transform: scale(0.5);
+    }
+    .productos__bombilla:hover{
+        transition: transform .2s;
+        transform: scale(0.5);
+    }
+    .productos__mates:hover{
+        transition: transform .2s;
+        transform: scale(0.5);
+    }
+    .productos__termos:hover{
+        transition: transform .2s;
+        transform: scale(0.5);
+    }
+    .productos__yerba:hover{
+        transition: transform .2s;
+        transform: scale(0.5);
+    }
+    
+}
