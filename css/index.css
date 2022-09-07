@@ -25,8 +25,8 @@
     /*font-sizes*/
     --texto-xxl: 50px;
     --texto--xl: 35px;
-    --texto-l: 20px;
-    --texto-base:15px;
+    --texto-sub: 20px;
+    --texto-l:15px;
 }
 
 /*proyexto */
@@ -101,15 +101,6 @@ margin-top: 1200px;
     
 }
 
-.main_nav{
-    display: flex;
-    justify-content:space-between;
-    gap: 2rem;
-    background-color: var(--barracolor);
-   
-    
-}
-
 .main_logo{
 display: inline-block;
 max-width: 350px;
@@ -134,6 +125,17 @@ min-width: 120px;
     color:var(--letras);   
 
 }
+
+/*media heder*/
+@media (max-width: 780px){  
+    .nav-logo{
+      width: 100px;
+      height: 100px;
+    }
+    
+} 
+
+
 /*cards*/
 .card-seccion{
     margin: 100px 0px;
@@ -177,6 +179,26 @@ min-width: 120px;
     transform: scale(2.5); 
 }
 
+/*media home*/
+@media (max-width:798px){
+  
+    .card_img-tienda{
+        width: 150px;
+        height: 150px;
+    }
+
+
+.card_img:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
+}
+
+.card_img-tienda:hover{
+    transition: transform .2s;
+    transform: scale(1.5); 
+}
+}
+
 /*seccion cura mate*/
 .cura-mate-div{
     display:grid;
@@ -207,24 +229,25 @@ min-width: 120px;
     gap: 2rem;
 }
 
-/*responsive*/
-@media (max-width:480px){
-    .main_nav{
-        flex-wrap: wrap;      
-     }
-    .main-li{
-        font-size: var(--texto-base);
-        margin:0px;
-        padding:0px;       
-        align-items: stretch;
-        
-    }          
-}
+/*media cura mate*/
 @media (max-width 480){
 
 .card{ justify-content: center;
     align-items: center;
 }
+}
+
+@media (max-width:798px){
+    .cura-mate-subtitulo{
+        font-size:var(--texto-sub);
+        
+   
+    }
+
+    .cura-mate-li{
+        font-size:var(--texto-l);
+    }
+
 }
 
 
@@ -233,7 +256,25 @@ min-width: 120px;
 
 input{
     width: 25rem;
-    height: 3rem;
+    height: 5rem;
+}
+
+#input-sub{
+    width: 25rem;
+    height: 8rem;
+}
+.mate-en-mano-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.mate-en-mano{
+    height: 500px;
+    width: 500px;
+    
+
 }
 
 .iniciar__sesion_titulo{
@@ -241,8 +282,7 @@ input{
     justify-content: center;
     align-items: center;
     font-size: var(--texto-xxl);
-    font-family: var (font-family-textos);
-    margin-top: 25rem;
+    font-family: var (font-family-textos);   
     color:var(--colortres);
 }
 
@@ -258,7 +298,24 @@ input{
     font-family: var (font-family-textos);
  }
 
+/*media iniciar sesion*/
+@media (max-width: 798px){
+    form{
+        font-size:var(--texto--xl);
+        margin: 15px;
+    }
+    input{
+        display: block;
+        margin-top: 15px;
 
+    }
+
+
+    .mate-en-mano{
+        height: 250px;
+        width: 250px;   
+     }    
+}
  
 
 /*tienda*/
@@ -316,11 +373,6 @@ input{
     transition: transform .2s;
     transform: scale(1.5);
 }
-
-
-/*tienda */
-
-
 
 .productos__mates{
 margin: 50px;
@@ -408,9 +460,66 @@ border-radius:10px;
     display: flex;
     margin: 50px 50px;
 }
+
+    /*media tienda*/
+    @media (max-width:786px){
+        .imagen__mates{
+              width: 150px;
+        height: 150px;
+
+        }
+        .imagen__yerba{
+              width: 150px;
+        height: 150px;
+
+        }
+        .imagen__termos{
+              width: 150px;
+        height: 150px;
+
+        }
+        .imagen__accesorios{
+              width: 150px;
+        height: 150px;
+
+        }
+        .imagen__bombilla{
+              width: 150px;
+        height: 150px;
+
+        }
+
+        .producto__accesorios:hover{
+            transition: transform .2s;
+            transform: scale(1);
+        }
+        .productos__bombilla:hover{
+            transition: transform .2s;
+            transform: scale(1);
+        }
+        .productos__mates:hover{
+            transition: transform .2s;
+            transform: scale(1);
+        }
+        .productos__termos:hover{
+            transition: transform .2s;
+            transform: scale(1);
+        }
+        .productos__yerba:hover{
+            transition: transform .2s;
+            transform: scale(1);
+        }
+        
+    }
  
 
 /*pagos*/
+
+#nav-pagos{
+    font-size: var(--texto--xl);
+    color: var(--colortres);
+}
+
 #titulo-pagos{
     display: flex;
     justify-content: center;
@@ -511,6 +620,16 @@ width: 35rem;
     margin-top: 1200px;
 }
 
+/*media nosotros*/
+@media (max-width:780px){
+    .nosotros__titulo{
+        font-size:var(--texto--xl);
+    }
+    .nosotros__parrafo{
+        font-size: var(--texto-l);
+    }
+}
+
 
 /*como armar tu mate*/
 
@@ -540,9 +659,16 @@ width: 35rem;
      display:flex;
      flex-wrap: wrap;
      font-size: var(--texto--xl);
-    font-family:var(--font-family-textos);
-    
+    font-family:var(--font-family-textos);   
     }
+
+    /*media como armar tu mate*/
+
+@media (max-width:780px){
+    .armado-li{
+        font-size: var(--texto-l);
+    }
+}
     
     
 
