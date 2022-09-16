@@ -65,10 +65,10 @@ a{
     text-decoration: none;
     font-size: 2em;}
 
-/*.container{
+.container{
 margin:0 auto;
 max-width: 1200px;
-}*/
+}
 
 
 
@@ -89,7 +89,10 @@ margin-top: 1200px;
     display: flex;
     justify-content: center;
 }
-
+.nav-carro{
+    height: 50px;
+    width: 50px;
+}
 .main_heder{
     display: flex;
     justify-content: center;
@@ -133,7 +136,21 @@ min-width: 120px;
       height: 100px;
     }
     
-} 
+}
+
+.whatsapp-logo{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;    
+}
+
+/*media*/
+@media (max-width: 986px){
+.whatsapp-logo{
+width: 100px;
+}
+}
 
 
 /*cards*/
@@ -161,7 +178,12 @@ min-width: 120px;
     flex: 1 1 1 180px;
     margin: 25px;
 }
-
+.carousel-control-next, .carousel-control-prev {
+    transition: opacity 3s ease 0s;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color:var(--colortres);
+}
 .card_img:hover{
     transition: transform .2s;
     transform: scale(3); 
@@ -330,20 +352,13 @@ input{
 }
 
 
-
-
-.main_tienda{
+.tienda{
     display: flex;
     flex-wrap: wrap;
     font-size: var(--texto--xl);
     color: var(--colortres);
-
 }
 
-
-#main_tienda{
-    background-color: var(--barracolor);
-}
 
 .imagen_yerba{
     display: inline-block;
@@ -374,7 +389,7 @@ input{
     transform: scale(1.5);
 }
 
-.productos__mates{
+.productos__mates{ 
 margin: 50px;
 display: inline-block;
 border: solid var(--barracolor) 8px;
@@ -414,6 +429,9 @@ border-radius:10px;
     max-width: 200px;
     margin: 20px 20px;       
 }
+
+
+
 .producto__accesorios {
     margin: 50px;    
     display: inline-block;
@@ -587,13 +605,25 @@ width: 35rem;
     flex-wrap: wrap;
     font-size: var(--texto--xl); 
     font-family:var(--font-family-textos);
-    margin-bottom: 72rem;
+    margin: bottom 60px;;
+   
  }
     
     .contactos:hover{ 
         transition: transform .2s;
     transform: scale(1.5);       
     
+    }
+
+    .maps{
+        display: flex;
+        float:none;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 5rem;
+        margin-bottom: 72rem;
+        
     }
     
 /*nosotros*/
